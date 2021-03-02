@@ -1,0 +1,6 @@
+framework module APUNimkit {
+  umbrella header "APUNimkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
