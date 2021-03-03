@@ -45,7 +45,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   APUNimkit:
-    :commit: 46750965f6ddf29a5281226981f9cc0ff1ea3b7a
+    :commit: e89c31be0efedd2b636c093dcf7fa593ea5844fd
     :git: https://github.com/rcmyy123/APUNimkit.git
 
 SPEC CHECKSUMS:
