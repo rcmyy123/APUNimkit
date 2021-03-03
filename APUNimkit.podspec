@@ -7,9 +7,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rcmyy123' => '1805115580@qq.com' }
   s.source           = { :git => 'https://github.com/rcmyy123/APUNimkit.git', :tag => s.version.to_s }
-s.resource_bundles = {
-  'APUNimkit' => ['APUNimkit/Assets/*']
-}
+
 
   s.platform = :ios, '9.0'
 
@@ -23,7 +21,9 @@ s.resource_bundles = {
   end
   
   s.subspec 'Core' do |os|     
-    os.resources = 'APUNimkit/Resources/*.*'   
+    os.resource_bundles = {
+      'APUNimkit' => ['APUNimkit/Assets/*']
+    }  
     os.dependency 'SDWebImage', '~> 5.0.6'
     os.dependency 'FLAnimatedImage', '~> 1.0.12'
     os.dependency 'Toast', '~> 3.1.0'         
