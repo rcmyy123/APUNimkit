@@ -14,11 +14,6 @@
     "git": "https://github.com/rcmyy123/APUNimkit.git",
     "tag": "0.1.0"
   },
-  "resource_bundles": {
-    "APUNimkit": [
-      "APUNimkit/Assets/*"
-    ]
-  },
   "platforms": {
     "ios": "9.0"
   },
@@ -52,7 +47,11 @@
     },
     {
       "name": "Core",
-      "resources": "APUNimkit/Resources/*.*",
+      "resource_bundles": {
+        "APUNimkit": [
+          "APUNimkit/Assets/*"
+        ]
+      },
       "dependencies": {
         "SDWebImage": [
           "~> 5.0.6"

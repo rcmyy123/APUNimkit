@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
     cs.source_files  = 'APUNimkit/Classes/**/*.{h,m}'
     cs.dependency 'APUNimkit/Core'
     cs.dependency 'NIMSDK_LITE', '~> 8.0.0'
+    cs.dependency 'SDWebImage', '~> 5.0.6'
+    cs.dependency 'FLAnimatedImage', '~> 1.0.12'
+    cs.dependency 'Toast', '~> 3.1.0'         
+    cs.dependency 'TZImagePickerController', '~> 3.2.9'  
+    cs.dependency 'M80AttributedLabel', '~> 1.9.9' 
+    cs.dependency 'YYImage', '~> 1.0.4'
+    cs.dependency 'YYImage/WebP', '~> 1.0.4' 
   end
   
   s.subspec 'Core' do |os|     
     os.resource_bundles = {
       'APUNimkit' => ['APUNimkit/Assets/*']
     }  
-    os.dependency 'SDWebImage', '~> 5.0.6'
-    os.dependency 'FLAnimatedImage', '~> 1.0.12'
-    os.dependency 'Toast', '~> 3.1.0'         
-    os.dependency 'TZImagePickerController', '~> 3.2.9'  
-    os.dependency 'M80AttributedLabel', '~> 1.9.9' 
-    os.dependency 'YYImage', '~> 1.0.4'
-    os.dependency 'YYImage/WebP', '~> 1.0.4'       	      
+          	      
   end
   
   s.default_subspec = 'Lite'
