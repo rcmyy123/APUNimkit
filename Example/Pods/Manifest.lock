@@ -45,11 +45,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   APUNimkit:
-    :commit: 55720c43f8985a7dc127f5afc861ae8ca267e915
+    :commit: 46750965f6ddf29a5281226981f9cc0ff1ea3b7a
     :git: https://github.com/rcmyy123/APUNimkit.git
 
 SPEC CHECKSUMS:
-  APUNimkit: b8bb67322d887e388853f3ee7476e436f5129969
+  APUNimkit: 4632a3eac271363793a6e2d60f5bf52646c5fcb2
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
   NIMSDK_LITE: 2b921d2c25f348028bbd1ae1256321d728205bbc
