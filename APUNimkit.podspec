@@ -7,6 +7,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rcmyy123' => '1805115580@qq.com' }
   s.source           = { :git => 'https://github.com/rcmyy123/APUNimkit.git', :tag => s.version.to_s }
+s.resource_bundles = {
+  'APUNimkit' => ['APUNimkit/Assets/*']
+}
 
   s.platform = :ios, '9.0'
 
