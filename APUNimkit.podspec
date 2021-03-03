@@ -8,6 +8,14 @@ Pod::Spec.new do |s|
   s.author           = { 'rcmyy123' => '1805115580@qq.com' }
   s.source           = { :git => 'https://github.com/rcmyy123/APUNimkit.git', :tag => s.version.to_s }
 
+  s.dependency 'SDWebImage', '~> 5.0.6'
+  s.dependency 'FLAnimatedImage', '~> 1.0.12'
+  s.dependency 'Toast', '~> 3.1.0'         
+  s.dependency 'TZImagePickerController', '~> 3.2.9'  
+  s.dependency 'M80AttributedLabel', '~> 1.9.9' 
+  s.dependency 'YYImage', '~> 1.0.4'
+  s.dependency 'YYImage/WebP', '~> 1.0.4'
+
 
   s.platform = :ios, '9.0'
 
@@ -18,13 +26,7 @@ Pod::Spec.new do |s|
     cs.source_files  = 'APUNimkit/Classes/**/*.{h,m}'
     cs.dependency 'APUNimkit/Core'
     cs.dependency 'NIMSDK_LITE', '~> 8.0.0'
-    cs.dependency 'SDWebImage', '~> 5.0.6'
-    cs.dependency 'FLAnimatedImage', '~> 1.0.12'
-    cs.dependency 'Toast', '~> 3.1.0'         
-    cs.dependency 'TZImagePickerController', '~> 3.2.9'  
-    cs.dependency 'M80AttributedLabel', '~> 1.9.9' 
-    cs.dependency 'YYImage', '~> 1.0.4'
-    cs.dependency 'YYImage/WebP', '~> 1.0.4' 
+     
   end
   
   s.subspec 'Core' do |os|     

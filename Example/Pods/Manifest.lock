@@ -1,17 +1,17 @@
 PODS:
   - APUNimkit (0.1.0):
     - APUNimkit/Lite (= 0.1.0)
-  - APUNimkit/Core (0.1.0):
+  - APUNimkit/Core (0.1.0)
+  - APUNimkit/Lite (0.1.0):
+    - APUNimkit/Core
     - FLAnimatedImage (~> 1.0.12)
     - M80AttributedLabel (~> 1.9.9)
+    - NIMSDK_LITE (~> 8.0.0)
     - SDWebImage (~> 5.0.6)
     - Toast (~> 3.1.0)
     - TZImagePickerController (~> 3.2.9)
     - YYImage (~> 1.0.4)
     - YYImage/WebP (~> 1.0.4)
-  - APUNimkit/Lite (0.1.0):
-    - APUNimkit/Core
-    - NIMSDK_LITE (~> 8.0.0)
   - FLAnimatedImage (1.0.12)
   - M80AttributedLabel (1.9.9)
   - NIMSDK_LITE (8.0.0)
@@ -45,11 +45,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   APUNimkit:
-    :commit: 2e443342c883dd28be94b30e16ce7cefc46bda51
+    :commit: 1df01d4c986c5bff65350d37c0cbf149966043cc
     :git: https://github.com/rcmyy123/APUNimkit.git
 
 SPEC CHECKSUMS:
-  APUNimkit: 123a29ac6c01ffeba4883534fce1dea84bcb7c73
+  APUNimkit: 7f9a3a920552880a97c3c57f1866762e6b407376
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
   NIMSDK_LITE: 2b921d2c25f348028bbd1ae1256321d728205bbc

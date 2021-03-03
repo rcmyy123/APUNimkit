@@ -42,17 +42,7 @@
         ],
         "NIMSDK_LITE": [
           "~> 8.0.0"
-        ]
-      }
-    },
-    {
-      "name": "Core",
-      "resource_bundles": {
-        "APUNimkit": [
-          "APUNimkit/Assets/*"
-        ]
-      },
-      "dependencies": {
+        ],
         "SDWebImage": [
           "~> 5.0.6"
         ],
@@ -73,6 +63,14 @@
         ],
         "YYImage/WebP": [
           "~> 1.0.4"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "resource_bundles": {
+        "APUNimkit": [
+          "APUNimkit/Assets/*"
         ]
       }
     }
