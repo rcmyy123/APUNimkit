@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |os|     
     os.resource_bundles = {
-      'APUNimkit' => ['APUNimkit/Assets/*']
+      'APUNimkit' => ['APUNimkit/Assets/Core/*']
     }  
           	      
   end
